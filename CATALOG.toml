@@ -1,0 +1,24 @@
+# Machine-readable entry for this repository. Aggregated into public-software/catalog.
+# Edit here; `pub catalog sync` propagates description, topics and custom properties to GitHub.
+
+[repo]
+name        = "silicon"
+ring        = "system"          # spine | platform | system | domain | standards
+layers      = ["L0"]
+wave        = 3
+tier        = "incubating"        # incubating | stable | core | archived
+maintainers = ["maint-silicon"]
+summary     = "Open chip designs: root of trust, RF front-end control, FPGA GPU, reference RISC-V platform definitions; shuttle submissions."
+
+# One [[component]] per crate, app or service this workspace publishes.
+# planned: rot chip · rf-fe · fpga-gpu · riscv-platform · shuttle/ runs
+#
+# [[component]]
+# crate     = "pub-silicon-example"
+# kind      = "lib"                # lib | app | service | plugin | spec
+# ledger    = "<ledger entry name>"
+# readiness = "none"               # shipped | partial | seed | none
+# effort    = 3
+# specs     = []
+# provides  = ["public:area/iface@1"]
+# requires  = []
